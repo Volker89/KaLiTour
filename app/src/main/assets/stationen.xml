@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stationen>
+
+    <station>
+        <Id>01</Id>
+        <Name>Altes Rathaus</Name>
+        <Koordinaten>6.552685600000018,51.4998701,0.0</Koordinaten>
+        <Beschreibung>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu ornare metus. Integer eget vulputate nunc. Proin ut metus ac diam suscipit condimentum et non nunc. Phasellus lorem arcu, ultrices vel maximus vitae, accumsan a sem. Ut quis facilisis augue. Integer in diam at nunc consequat ullamcorper vitae a eros. Suspendisse eget pharetra lectus. Sed volutpat odio orci, at suscipit tellus pharetra eu. Quisque blandit malesuada feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent elementum vehicula magna, et auctor orci iaculis non. Aliquam euismod euismod nibh id porta. Vestibulum vestibulum augue in elit consectetur, sed vehicula lorem blandit. Nam scelerisque elit id ipsum finibus rutrum. Duis dapibus ex ac ex fringilla, et rutrum risus consequat.</Beschreibung>
+    </station>
+
+    <station>
+        <Id>02</Id>
+        <Name>Konsumanstalt</Name>
+        <Koordinaten>6.5530202,51.4988786,0.0</Koordinaten>
+        <Beschreibung>Fusce porta mattis orci et semper. Sed in tempus risus, eget sagittis felis. Duis sodales tincidunt lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed dui a metus rhoncus mattis. Etiam nunc felis, lacinia porttitor pretium sed, ullamcorper in erat. Nam ligula neque, pretium eget lobortis ut, venenatis vel metus. Sed sit amet ipsum massa. Ut aliquam non enim rhoncus pellentesque. Proin odio nisl, fringilla sed sagittis in, pharetra non leo.</Beschreibung>
+    </station>
+
+    <station>
+        <Id>03</Id>
+        <Name>Markt</Name>
+        <Koordinaten>3.5534302,53.8346,0.0</Koordinaten>
+        <Beschreibung>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin tellus nunc, pulvinar nec eleifend sed, suscipit maximus felis. Ut mollis mattis ligula sit amet egestas. Etiam convallis pulvinar mattis. Integer eget porta velit. Quisque eleifend convallis lacus at molestie. Maecenas et neque tellus. Morbi condimentum est eget libero feugiat, sed tristique lectus aliquet.</Beschreibung>
+    </station>
+
+    <station>
+        <Id>04</Id>
+        <Name>Parkplatz</Name>
+        <Koordinaten>9.775534302,53.8346,0.0</Koordinaten>
+    <Beschreibung>Mauris condimentum vulputate ante, vehicula scelerisque nisl tincidunt non. Nullam sit amet purus mattis, imperdiet neque in, interdum justo. Vestibulum erat metus, posuere luctus mauris ac, efficitur sodales lectus. Phasellus iaculis, leo in lobortis congue, orci ipsum tempor enim, vitae tempor purus nibh vitae erat. Pellentesque mi urna, bibendum sit amet imperdiet consequat, fermentum vitae elit. Aenean fringilla elementum sem ut tempus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tempus diam ac lorem euismod finibus et efficitur orci. Aenean cursus sem vitae lorem ultricies, in tincidunt arcu venenatis. Sed sit amet eros at justo imperdiet pulvinar ac in neque. Vivamus eu rhoncus urna, vel mollis massa.</Beschreibung>
+    </station>
+
+    <station>
+        <Id>05</Id>
+        <Name>Kaufland</Name>
+        <Koordinaten>2.3534534302,53.8346,0.0</Koordinaten>
+        <Beschreibung>Vestibulum elementum, nunc non molestie venenatis, neque purus pharetra diam, eu finibus elit sem non tortor. Quisque venenatis laoreet metus, vitae imperdiet dolor fringilla tempor. Sed at placerat arcu, et aliquam eros. Cras in lacus bibendum, dictum nibh vel, tristique nunc. Sed imperdiet quis lacus eu egestas. Quisque nec tellus a sem eleifend varius. Maecenas scelerisque interdum arcu, vel fermentum libero porttitor nec. Nullam mauris enim, maximus et auctor vel, tincidunt vitae erat. Nunc in commodo tellus. In magna libero, maximus vitae quam sit amet, commodo accumsan eros.</Beschreibung>
+    </station>
+
+</stationen>
