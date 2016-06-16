@@ -9,6 +9,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="New Text"
         android:id="@+id/textView_stationName"
+        android:layout_marginTop="15dp"
         android:layout_gravity="center_horizontal" />
 
     <TextView
@@ -16,6 +17,7 @@
         android:layout_height="wrap_content"
         android:text="New Text"
         android:id="@+id/textView_stationBeschreibung"
+        android:layout_marginTop="15dp"
         android:layout_below="@+id/textView_stationName"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>
