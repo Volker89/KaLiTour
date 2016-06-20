@@ -2,8 +2,10 @@ package kaliapps.kalitour;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -11,6 +13,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.mapbox.mapboxsdk.annotations.Icon;
+import com.mapbox.mapboxsdk.annotations.IconFactory;
 import com.mapbox.mapboxsdk.annotations.Marker;
 import com.mapbox.mapboxsdk.annotations.MarkerOptions;
 import com.mapbox.mapboxsdk.annotations.PolylineOptions;
@@ -58,6 +62,10 @@ public class MapActivity extends AppCompatActivity {
         final Position bruecke = Position.fromCoordinates(6.550942, 51.491801);
         final Position destination = Position.fromCoordinates(6.551540, 51.499484);
 
+        IconFactory iconFactory = IconFactory.getInstance(MapActivity.this);
+        Drawable iconDrawable = ContextCompat.getDrawable(MapActivity.this, R.drawable.kiosk_icon);
+        final Icon icon = iconFactory.fromDrawable(iconDrawable);
+
         mapView = (MapView) findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(new OnMapReadyCallback() {
@@ -77,7 +85,8 @@ public class MapActivity extends AppCompatActivity {
 
                 mapboxMap.addMarker(new MarkerOptions()
                         .position(new LatLng(kiosk.getLatitude(), kiosk.getLongitude()))
-                        .title("Kiosk"));
+                        .title("Kiosk")
+                        .icon(icon));
 
                 mapboxMap.addMarker(new MarkerOptions()
                         .position(new LatLng(marktplatz.getLatitude(), marktplatz.getLongitude()))
