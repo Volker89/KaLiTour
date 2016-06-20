@@ -81,7 +81,8 @@ public class MapActivity extends AppCompatActivity {
 
                 mapboxMap.addMarker(new MarkerOptions()
                         .position(new LatLng(kneipe.getLatitude(), kneipe.getLongitude()))
-                        .title("Kneipe"));
+                        .title("Kneipe")
+                        .icon(icon));
 
                 mapboxMap.addMarker(new MarkerOptions()
                         .position(new LatLng(kiosk.getLatitude(), kiosk.getLongitude()))
@@ -90,7 +91,8 @@ public class MapActivity extends AppCompatActivity {
 
                 mapboxMap.addMarker(new MarkerOptions()
                         .position(new LatLng(marktplatz.getLatitude(), marktplatz.getLongitude()))
-                        .title("Marktplatz"));
+                        .title("Marktplatz")
+                        .icon(icon));
 
                 mapboxMap.addMarker(new MarkerOptions()
                         .position(new LatLng(bergmann.getLatitude(), bergmann.getLongitude()))
