@@ -4,6 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,6 +56,8 @@ public class Fragment1 extends Fragment {
 
         stationName.setText(momentaneStation.getName());
         stationBeschreibung.setText(momentaneStation.getBeschreibung());
+
+        stationBeschreibung.setMovementMethod(new ScrollingMovementMethod());
 
         return rootView;
     }
