@@ -51,20 +51,18 @@ public class MapActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
-        final Position origin = Position.fromCoordinates(6.552112, 51.499963);
-        final Position waypoint1 = Position.fromCoordinates(6.552338, 51.497979);
-        final Position waypoint2 = Position.fromCoordinates(6.553681, 51.496354);
-        final Position kneipe = Position.fromCoordinates(6.557562, 51.496057);
-        final Position kiosk = Position.fromCoordinates(6.556641, 51.495273);
-        final Position marktplatz = Position.fromCoordinates(6.556457, 51.494237);
-        final Position bergmann = Position.fromCoordinates(6.557404, 51.492596);
-        final Position kirche = Position.fromCoordinates(6.552929, 51.490398);
-        final Position bruecke = Position.fromCoordinates(6.550942, 51.491801);
-        final Position destination = Position.fromCoordinates(6.551540, 51.499484);
-
-        IconFactory iconFactory = IconFactory.getInstance(MapActivity.this);
-        Drawable iconDrawable = ContextCompat.getDrawable(MapActivity.this, R.drawable.kiosk_icon);
-        final Icon icon = iconFactory.fromDrawable(iconDrawable);
+        final Position origin = Position.fromCoordinates(6.552291, 51.500007);
+        final Position johannstrasse = Position.fromCoordinates(6.553049, 51.498814);
+        final Position alfredstrasse = Position.fromCoordinates(6.554024, 51.496045);
+        final Position georgstrasse = Position.fromCoordinates(6.557750, 51.496070);
+        final Position zwischen1 = Position.fromCoordinates(6.557972, 51.494804);
+        final Position markt = Position.fromCoordinates(6.556149, 51.494772);
+        final Position antonstrasse = Position.fromCoordinates(6.557285, 51.492454);
+        final Position lotharstrasse = Position.fromCoordinates(6.556266, 51.491963);
+        final Position barbarastrasse = Position.fromCoordinates(6.556684, 51.490622);
+        final Position vinnstraße = Position.fromCoordinates(6.554801, 51.489328);
+        final Position zwischen2 = Position.fromCoordinates(6.550873, 51.491418);
+        final Position destination = Position.fromCoordinates(6.551518, 51.499479);
 
         mapView = (MapView) findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
@@ -77,95 +75,114 @@ public class MapActivity extends AppCompatActivity {
 
                 mapboxMap.addMarker(new MarkerOptions()
                         .position(new LatLng(origin.getLatitude(), origin.getLongitude()))
-                        .title("Start"));
+                        .title("Altes Rathaus"));
 
                 mapboxMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(kneipe.getLatitude(), kneipe.getLongitude()))
-                        .title("Kneipe")
-                        .icon(icon));
+                        .position(new LatLng(johannstrasse.getLatitude(), johannstrasse.getLongitude()))
+                        .title("Johannstrasse"));
 
                 mapboxMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(kiosk.getLatitude(), kiosk.getLongitude()))
-                        .title("Kiosk")
-                        .icon(icon));
+                        .position(new LatLng(alfredstrasse.getLatitude(), alfredstrasse.getLongitude()))
+                        .title("Alfredstrasse"));
 
                 mapboxMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(marktplatz.getLatitude(), marktplatz.getLongitude()))
-                        .title("Marktplatz")
-                        .icon(icon));
+                        .position(new LatLng(georgstrasse.getLatitude(), georgstrasse.getLongitude()))
+                        .title("Georgstrasse"));
 
                 mapboxMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(bergmann.getLatitude(), bergmann.getLongitude()))
-                        .title("Bergmann"));
+                        .position(new LatLng(markt.getLatitude(), markt.getLongitude()))
+                        .title("Markt"));
 
                 mapboxMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(kirche.getLatitude(), kirche.getLongitude()))
-                        .title("Kirche"));
+                        .position(new LatLng(antonstrasse.getLatitude(), antonstrasse.getLongitude()))
+                        .title("Antonstrasse"));
 
                 mapboxMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(bruecke.getLatitude(), bruecke.getLongitude()))
-                        .title("Brücke"));
+                        .position(new LatLng(lotharstrasse.getLatitude(), lotharstrasse.getLongitude()))
+                        .title("Lotharstrasse"));
+
+                mapboxMap.addMarker(new MarkerOptions()
+                        .position(new LatLng(barbarastrasse.getLatitude(), barbarastrasse.getLongitude()))
+                        .title("Barbarastrasse"));
+
+                mapboxMap.addMarker(new MarkerOptions()
+                        .position(new LatLng(vinnstraße.getLatitude(), vinnstraße.getLongitude()))
+                        .title("Vinnstrasse"));
 
                 mapboxMap.addMarker(new MarkerOptions()
                         .position(new LatLng(destination.getLatitude(), destination.getLongitude()))
-                        .title("Ziel"));
+                        .title("Maxtrasse"));
 
                 mapboxMap.setOnMarkerClickListener(new MapboxMap.OnMarkerClickListener() {
                     @Override
                     public boolean onMarkerClick(@NonNull Marker marker) {
 
-                        if ((marker.getTitle())=="Start"){
+                        if ((marker.getTitle())=="Altes Rathaus"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
-                            i.putExtra("FROM_ACTIVITY","Start");
+                            i.putExtra("FROM_ACTIVITY","Altes Rathaus");
                             startActivity(i);
                             return true;
                         }
 
-                        else if ((marker.getTitle())=="Kneipe"){
+                        else if ((marker.getTitle())=="Johannstrasse"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
-                            i.putExtra("FROM_ACTIVITY","Kneipe");
+                            i.putExtra("FROM_ACTIVITY","Johannstrasse");
                             startActivity(i);
                             return true;
                         }
 
-                        else if ((marker.getTitle())=="Kiosk"){
+                        else if ((marker.getTitle())=="Alfredstrasse"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
-                            i.putExtra("FROM_ACTIVITY","Kiosk");
+                            i.putExtra("FROM_ACTIVITY","Alfredstrasse");
                             startActivity(i);
                             return true;
                         }
 
-                        else if ((marker.getTitle())=="Marktplatz"){
+                        else if ((marker.getTitle())=="Georgstrasse"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
-                            i.putExtra("FROM_ACTIVITY","Marktplatz");
+                            i.putExtra("FROM_ACTIVITY","Georgstrasse");
                             startActivity(i);
                             return true;
                         }
 
-                        else if ((marker.getTitle())=="Bergmann"){
+                        else if ((marker.getTitle())=="Markt"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
-                            i.putExtra("FROM_ACTIVITY","Bergmann");
+                            i.putExtra("FROM_ACTIVITY","Markt");
                             startActivity(i);
                             return true;
                         }
 
-                        else if ((marker.getTitle())=="Kirche"){
+                        else if ((marker.getTitle())=="Antonstrasse"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
-                            i.putExtra("FROM_ACTIVITY","Kirche");
+                            i.putExtra("FROM_ACTIVITY","Antonstrasse");
                             startActivity(i);
                             return true;
                         }
 
-                        else if ((marker.getTitle())=="Brücke"){
+                        else if ((marker.getTitle())=="Lotharstrasse"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
-                            i.putExtra("FROM_ACTIVITY","Brücke");
+                            i.putExtra("FROM_ACTIVITY","Lotharstrasse");
                             startActivity(i);
                             return true;
                         }
 
-                        else if ((marker.getTitle())=="Ziel"){
+                        else if ((marker.getTitle())=="Barbarastrassee"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
-                            i.putExtra("FROM_ACTIVITY","Ziel");
+                            i.putExtra("FROM_ACTIVITY","Barbarastrasse");
+                            startActivity(i);
+                            return true;
+                        }
+
+                        else if ((marker.getTitle())=="Vinnstrasse"){
+                            Intent i = new Intent(MapActivity.this, InfoActivity.class);
+                            i.putExtra("FROM_ACTIVITY","Vinnstrasse");
+                            startActivity(i);
+                            return true;
+                        }
+
+                        else if ((marker.getTitle())=="Maxtrasse"){
+                            Intent i = new Intent(MapActivity.this, InfoActivity.class);
+                            i.putExtra("FROM_ACTIVITY","Maxtrasse");
                             startActivity(i);
                             return true;
                         }
@@ -177,15 +194,17 @@ public class MapActivity extends AppCompatActivity {
                 });
 
                 try {
-                    getRoute(origin, waypoint1);
-                    getRoute(waypoint1, waypoint2);
-                    getRoute(waypoint2, kneipe);
-                    getRoute(kneipe, kiosk);
-                    getRoute(kiosk, marktplatz);
-                    getRoute(marktplatz, bergmann);
-                    getRoute(bergmann, kirche);
-                    getRoute(kirche, bruecke);
-                    getRoute(bruecke, destination);
+                    getRoute(origin, johannstrasse);
+                    getRoute(johannstrasse, alfredstrasse);
+                    getRoute(alfredstrasse, georgstrasse);
+                    getRoute(georgstrasse, zwischen1);
+                    getRoute(zwischen1, markt);
+                    getRoute(markt, antonstrasse);
+                    getRoute(antonstrasse, lotharstrasse);
+                    getRoute(lotharstrasse, barbarastrasse);
+                    getRoute(barbarastrasse, vinnstraße);
+                    getRoute(vinnstraße, zwischen2);
+                    getRoute(zwischen2, destination);
                 } catch (ServicesException e) {
                     e.printStackTrace();
                 }
