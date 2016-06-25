@@ -48,8 +48,29 @@ public class Fragment1 extends Fragment {
             case "Alfredstrasse":
                 momentaneStation = stationen.get(2);
                 break;
+            case "Georgstrasse":
+                momentaneStation = stationen.get(3);
+                break;
+            case "Markt":
+                momentaneStation = stationen.get(4);
+                break;
+            case "Antonstrasse":
+                momentaneStation = stationen.get(5);
+                break;
+            case "Lotharstrasse":
+                momentaneStation = stationen.get(6);
+                break;
+            case "Barbarastrasse":
+                momentaneStation = stationen.get(7);
+                break;
+            case "Vinnstrasse":
+                momentaneStation = stationen.get(8);
+                break;
+            case "Maxstrasse":
+                momentaneStation = stationen.get(9);
+                break;
             default:
-                momentaneStation = stationen.get(0);
+                momentaneStation = stationen.get(10);
         }
 
         TextView stationName = (TextView) rootView.findViewById(R.id.textView_stationName);

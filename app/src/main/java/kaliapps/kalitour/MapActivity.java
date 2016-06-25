@@ -111,7 +111,7 @@ public class MapActivity extends AppCompatActivity {
 
                 mapboxMap.addMarker(new MarkerOptions()
                         .position(new LatLng(destination.getLatitude(), destination.getLongitude()))
-                        .title("Maxtrasse"));
+                        .title("Maxstrasse"));
 
                 mapboxMap.setOnMarkerClickListener(new MapboxMap.OnMarkerClickListener() {
                     @Override
@@ -166,7 +166,7 @@ public class MapActivity extends AppCompatActivity {
                             return true;
                         }
 
-                        else if ((marker.getTitle())=="Barbarastrassee"){
+                        else if ((marker.getTitle())=="Barbarastrasse"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Barbarastrasse");
                             startActivity(i);
@@ -180,9 +180,9 @@ public class MapActivity extends AppCompatActivity {
                             return true;
                         }
 
-                        else if ((marker.getTitle())=="Maxtrasse"){
+                        else if ((marker.getTitle())=="Maxstrasse"){
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
-                            i.putExtra("FROM_ACTIVITY","Maxtrasse");
+                            i.putExtra("FROM_ACTIVITY","Maxstrasse");
                             startActivity(i);
                             return true;
                         }
