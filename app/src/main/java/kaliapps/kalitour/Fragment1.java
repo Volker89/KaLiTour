@@ -38,13 +38,13 @@ public class Fragment1 extends Fragment {
         }
 
         switch (text) {
-            case "Start":
+            case "Altes Rathaus":
                 momentaneStation = stationen.get(0);
                 break;
-            case "Kneipe":
+            case "Johannstrasse":
                 momentaneStation = stationen.get(1);
                 break;
-            case "Kiosk":
+            case "Alfredstrasse":
                 momentaneStation = stationen.get(2);
                 break;
             default:
