@@ -1,39 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <stationen>
 
     <station>
         <Id>01</Id>
         <Name>Altes Rathaus</Name>
         <Koordinaten>6.552685600000018,51.4998701,0.0</Koordinaten>
-        <Beschreibung>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu ornare metus. Integer eget vulputate nunc. Proin ut metus ac diam suscipit condimentum et non nunc. Phasellus lorem arcu, ultrices vel maximus vitae, accumsan a sem. Ut quis facilisis augue. Integer in diam at nunc consequat ullamcorper vitae a eros. Suspendisse eget pharetra lectus. Sed volutpat odio orci, at suscipit tellus pharetra eu. Quisque blandit malesuada feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent elementum vehicula magna, et auctor orci iaculis non. Aliquam euismod euismod nibh id porta. Vestibulum vestibulum augue in elit consectetur, sed vehicula lorem blandit. Nam scelerisque elit id ipsum finibus rutrum. Duis dapibus ex ac ex fringilla, et rutrum risus consequat.</Beschreibung>
+        <Beschreibung>Unsere Tour durch die Altsiedlung, auch Kolonie genannt, beginnt am sogenannten Alten Rathaus. Mit diesem Gebäude im Rücken würden wir auch auf den ältesten Teil der Siedlung, der um 1907/ 1908 gebaut wurde, gucken. Früher verlief dort, wo jetzt das Einkaufszentrum EK 3 steht, die Christianastraße, deren Häuser 1972 drei „weißen Riesen“ – 16-geschossige Hochhäuser – weichen mussten. Anfang des 21. Jahrhunderts wurden die Hochhäuser zurückgebaut bzw. gesprengt und das Einkaufszentrum wurde gebaut.
+
+Das sog. Alte Rathaus wurde 1912 als Barbaraschule, eine 8klassige katholische Volksschule, gebaut – zunächst nur die linke Seite. Auf dem Schulhof wurde streng nach Mädchen und Jungen getrennt. Mündlich überliefert ist, dass der rechte Teil der Barbaraschule bis 1919 erbaut wurde, und zwar für die evangelischen Schüler und Schülerinnen. Eine Mauer auf dem Schulhof sorgte dafür, dass man auch während der Pause getrennt blieb.
+
+Wir folgen der Ebertstraße in südlicher Richtung. Diese große Straße hat im Laufe der Geschichte ihren Namen so oft geändert, wie keine andere Straße in Kamp-Lintfort. Ursprünglich (spätestens ab 1913) hieß sie Albertstraße, 1925 wurde sie umgetauft in Friedrich-Ebert-Straße. Während der nationalsozialistischen Zeit hieß sie zunächst Adolf-Hitler-Straße, wurde dann aber unbenannt in Horst-Wessel-Straße und erhielt nach 1945 endgültig den Namen Ebertstraße.
+
+An der nächsten Straßenecke überqueren wir die Ebertstraße. Hier an dieser Ecke, auf der linken Seite, sehen Sie das Gebäude, in dem einer von drei Konsumanstalten der Kolonie untergebracht war, also Geschäfte, in denen die Frauen der Bergleute einkaufen gingen. Man bekam dort Lebensmittel und alle anderen Waren des täglichen Bedarfs, allerdings keinen Alkohol. Betrieben wurden die Konsumanstalten vom Bergwerk. So kam der Lohn also letztendlich wieder zurück. In den Konsumanstalten konnte man auch anschreiben lassen. Wobei gesagt wird, dass die Bergleute darauf achteten, ihre Schulden pünktlich zu zahlen. 
+
+Auf der rechten Straßenecke stehen noch Siedlungshäuser, die ab 1908 erbaut wurden. Man sieht hier einen sehr verspielten Baustil. Bei der Gestaltung der Altsiedlung wurde darauf geachtet, dass kein Nachbarhaus dem anderen gleicht. Die verschiedenen Haustypen wiederholen sich in der Altsiedlung immer wieder, aber nicht in unmittelbarer Nachbarschaft. 
+</Beschreibung>
     </station>
 
     <station>
         <Id>02</Id>
-        <Name>Konsumanstalt</Name>
+        <Name>Johann Christianstrasse</Name>
         <Koordinaten>6.5530202,51.4988786,0.0</Koordinaten>
-        <Beschreibung>Fusce porta mattis orci et semper. Sed in tempus risus, eget sagittis felis. Duis sodales tincidunt lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed dui a metus rhoncus mattis. Etiam nunc felis, lacinia porttitor pretium sed, ullamcorper in erat. Nam ligula neque, pretium eget lobortis ut, venenatis vel metus. Sed sit amet ipsum massa. Ut aliquam non enim rhoncus pellentesque. Proin odio nisl, fringilla sed sagittis in, pharetra non leo.</Beschreibung>
+        <Beschreibung></Beschreibung>
     </station>
 
     <station>
         <Id>03</Id>
-        <Name>Markt</Name>
+        <Name>Alfred Jakobstrasse</Name>
         <Koordinaten>3.5534302,53.8346,0.0</Koordinaten>
-        <Beschreibung>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin tellus nunc, pulvinar nec eleifend sed, suscipit maximus felis. Ut mollis mattis ligula sit amet egestas. Etiam convallis pulvinar mattis. Integer eget porta velit. Quisque eleifend convallis lacus at molestie. Maecenas et neque tellus. Morbi condimentum est eget libero feugiat, sed tristique lectus aliquet.</Beschreibung>
+        <Beschreibung></Beschreibung>
     </station>
 
     <station>
         <Id>04</Id>
-        <Name>Parkplatz</Name>
+        <Name>Georgstrasse Karlstrasse</Name>
         <Koordinaten>9.775534302,53.8346,0.0</Koordinaten>
-    <Beschreibung>Mauris condimentum vulputate ante, vehicula scelerisque nisl tincidunt non. Nullam sit amet purus mattis, imperdiet neque in, interdum justo. Vestibulum erat metus, posuere luctus mauris ac, efficitur sodales lectus. Phasellus iaculis, leo in lobortis congue, orci ipsum tempor enim, vitae tempor purus nibh vitae erat. Pellentesque mi urna, bibendum sit amet imperdiet consequat, fermentum vitae elit. Aenean fringilla elementum sem ut tempus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tempus diam ac lorem euismod finibus et efficitur orci. Aenean cursus sem vitae lorem ultricies, in tincidunt arcu venenatis. Sed sit amet eros at justo imperdiet pulvinar ac in neque. Vivamus eu rhoncus urna, vel mollis massa.</Beschreibung>
+    <Beschreibung></Beschreibung>
     </station>
 
     <station>
         <Id>05</Id>
-        <Name>Kaufland</Name>
+        <Name>Marktplatz</Name>
         <Koordinaten>2.3534534302,53.8346,0.0</Koordinaten>
-        <Beschreibung>Vestibulum elementum, nunc non molestie venenatis, neque purus pharetra diam, eu finibus elit sem non tortor. Quisque venenatis laoreet metus, vitae imperdiet dolor fringilla tempor. Sed at placerat arcu, et aliquam eros. Cras in lacus bibendum, dictum nibh vel, tristique nunc. Sed imperdiet quis lacus eu egestas. Quisque nec tellus a sem eleifend varius. Maecenas scelerisque interdum arcu, vel fermentum libero porttitor nec. Nullam mauris enim, maximus et auctor vel, tincidunt vitae erat. Nunc in commodo tellus. In magna libero, maximus vitae quam sit amet, commodo accumsan eros.</Beschreibung>
+        <Beschreibung></Beschreibung>
+    </station>
+
+    <station>
+        <Id>06</Id>
+        <Name>Paul Antonstrasse</Name>
+        <Koordinaten>2.3534534302,53.8346,0.0</Koordinaten>
+        <Beschreibung></Beschreibung>
+    </station>
+
+    <station>
+        <Id>07</Id>
+        <Name>Lotharstrasse</Name>
+        <Koordinaten>2.3534534302,53.8346,0.0</Koordinaten>
+        <Beschreibung></Beschreibung>
+    </station>
+
+    <station>
+        <Id>08</Id>
+        <Name>Marien Barbarastrasse</Name>
+        <Koordinaten>2.3534534302,53.8346,0.0</Koordinaten>
+        <Beschreibung></Beschreibung>
+    </station>
+
+    <station>
+        <Id>09</Id>
+        <Name>Vinnstrasse Ringstrasse</Name>
+        <Koordinaten>2.3534534302,53.8346,0.0</Koordinaten>
+        <Beschreibung></Beschreibung>
+    </station>
+
+    <station>
+        <Id>010</Id>
+        <Name>Ringstrasse Maxstrasse</Name>
+        <Koordinaten>2.3534534302,53.8346,0.0</Koordinaten>
+        <Beschreibung></Beschreibung>
     </station>
 
 </stationen>
