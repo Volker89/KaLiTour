@@ -28,6 +28,6 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
-        android:id="@+id/textView"
+        android:id="@+id/textView_bildTitel"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>

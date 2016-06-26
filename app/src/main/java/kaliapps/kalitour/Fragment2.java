@@ -41,11 +41,14 @@ public class Fragment2 extends Fragment {
             case "Altes Rathaus":
                 momentaneStation = stationen.get(0);
 
-                ImageView image = (ImageView) rootView.findViewById(R.id.imageView_stationBild);
-                image.setImageResource(R.drawable.weisseriesen);
+                ImageView image0 = (ImageView) rootView.findViewById(R.id.imageView_stationBild);
+                image0.setImageResource(R.drawable.weisseriesen);
                 break;
             case "Johannstrasse":
                 momentaneStation = stationen.get(1);
+
+                ImageView image1 = (ImageView) rootView.findViewById(R.id.imageView_stationBild);
+                image1.setImageResource(R.drawable.christianstr);
                 break;
             case "Alfredstrasse":
                 momentaneStation = stationen.get(2);
