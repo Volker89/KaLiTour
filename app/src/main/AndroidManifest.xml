@@ -24,7 +24,8 @@
         <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService" />
 
         <activity android:name=".MapActivity" />
-        <activity android:name=".InfoActivity"></activity>
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".InstructActivity"></activity>
     </application>
 
 </manifest>
