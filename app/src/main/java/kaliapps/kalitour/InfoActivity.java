@@ -62,13 +62,19 @@ public class InfoActivity extends AppCompatActivity {
                 case 0:
                     Fragment Fragment1 = new Fragment1();
 
-                    Bundle args = new Bundle();
-                    args.putString("FRAGMENT_KEY",prevActivity);
-                    Fragment1.setArguments(args);
+                    Bundle args1 = new Bundle();
+                    args1.putString("FRAGMENT_KEY",prevActivity);
+                    Fragment1.setArguments(args1);
 
                     return Fragment1;
                 case 1:
-                    return new Fragment2();
+                    Fragment Fragment2 = new Fragment2();
+
+                    Bundle args2 = new Bundle();
+                    args2.putString("FRAGMENT_KEY",prevActivity);
+                    Fragment2.setArguments(args2);
+
+                    return Fragment2;
                 case 2:
                     return new Fragment3();
                 default:
