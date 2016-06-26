@@ -8,6 +8,7 @@ import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -39,6 +40,9 @@ public class Fragment2 extends Fragment {
         switch (text) {
             case "Altes Rathaus":
                 momentaneStation = stationen.get(0);
+
+                ImageView image = (ImageView) rootView.findViewById(R.id.imageView_stationBild);
+                image.setImageResource(R.drawable.willkommen);
                 break;
             case "Johannstrasse":
                 momentaneStation = stationen.get(1);
