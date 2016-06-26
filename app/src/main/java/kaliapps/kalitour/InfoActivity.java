@@ -11,6 +11,9 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 
 public class InfoActivity extends AppCompatActivity {
 
@@ -90,6 +93,27 @@ public class InfoActivity extends AppCompatActivity {
         @Override
         public CharSequence getPageTitle(int position) {
             return fragments[position];
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.optionsmenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.item1:
+                return true;
+            case R.id.item2:
+                return true;
+            case R.id.item3:
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 }
