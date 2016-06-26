@@ -1,6 +1,7 @@
 package kaliapps.kalitour;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -8,6 +9,7 @@ import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -80,6 +82,15 @@ public class Fragment1 extends Fragment {
         stationBeschreibung.setText(momentaneStation.getBeschreibung());
 
         stationBeschreibung.setMovementMethod(new ScrollingMovementMethod());
+
+        Button button = (Button) rootView.findViewById(R.id.button5);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(), MapActivity.class);
+                startActivity(i);
+            }
+        });
 
         return rootView;
     }

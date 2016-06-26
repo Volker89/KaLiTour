@@ -1,5 +1,6 @@
 package kaliapps.kalitour;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -27,6 +28,16 @@ public class Fragment3 extends Fragment {
                 mp.start();
             }
         });
+
+        Button button = (Button) rootView.findViewById(R.id.button7);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(), MapActivity.class);
+                startActivity(i);
+            }
+        });
+
         return rootView;
     }
 }
