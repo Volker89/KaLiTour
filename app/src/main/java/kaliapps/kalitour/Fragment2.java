@@ -71,7 +71,7 @@ public class Fragment2 extends Fragment {
                 momentaneStation = stationen.get(10);
         }
 
-        TextView stationName = (TextView) rootView.findViewById(R.id.textView_stationName);
+        TextView stationName = (TextView) rootView.findViewById(R.id.textView_stationNameBild);
         stationName.setText(momentaneStation.getName());
 
         return rootView;
