@@ -3,7 +3,30 @@
     <item android:id="@+id/item1"
         android:title="Anleitung" />
     <item android:id="@+id/item2"
-        android:title="Stationsliste" />
+        android:title="Stationsliste" >
+        <menu>
+            <item android:id="@+id/item2_1"
+                  android:title="Altes Rathaus" />
+            <item android:id="@+id/item2_2"
+                android:title="Johannstrasse" />
+            <item android:id="@+id/item2_3"
+                android:title="Alfredstrasse" />
+            <item android:id="@+id/item2_4"
+                android:title="Georgstrasse" />
+            <item android:id="@+id/item2_5"
+                android:title="Markt" />
+            <item android:id="@+id/item2_6"
+                android:title="Antonstrasse" />
+            <item android:id="@+id/item2_7"
+                android:title="Lotharstrasse" />
+            <item android:id="@+id/item2_8"
+                android:title="Barbarastrasse" />
+            <item android:id="@+id/item2_9"
+                android:title="Vinnstrasse" />
+            <item android:id="@+id/item2_10"
+                android:title="Maxstrasse" />
+        </menu>
+    </item>
     <item android:id="@+id/item3"
         android:title="Impressum" />
 
