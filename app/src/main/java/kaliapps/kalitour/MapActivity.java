@@ -299,6 +299,8 @@ public class MapActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
             case R.id.item1:
+                Intent i = new Intent(MapActivity.this, InstructActivity.class);
+                startActivity(i);
                 return true;
             case R.id.item2:
                 return true;
