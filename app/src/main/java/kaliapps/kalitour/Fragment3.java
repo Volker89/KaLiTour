@@ -19,13 +19,26 @@ public class Fragment3 extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.frag3, container,false);
 
-        Button bt = (Button) rootView.findViewById(R.id.button2);
+        Button play, pause, stop;
 
-        bt.setOnClickListener(new View.OnClickListener() {
+        play = (Button) rootView.findViewById(R.id.play);
+        pause = (Button) rootView.findViewById(R.id.pause);
+        stop = (Button) rootView.findViewById(R.id.stop);
+
+        final MediaPlayer sound = MediaPlayer.create(getActivity(), R.raw.hund);
+
+        play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mp = MediaPlayer.create(getActivity(), R.raw.hund);
-                mp.start();
+                sound.start();
+            }
+        });
+
+        pause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sound.pause();
+                int length = sound.getCurrentPosition();
             }
         });
 
