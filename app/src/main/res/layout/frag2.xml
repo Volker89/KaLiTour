@@ -10,13 +10,16 @@
         android:text="Large Text"
         android:id="@+id/textView_stationNameBild"
         android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
         android:layout_gravity="center_horizontal" />
 
     <ImageView
-        android:layout_width="1000px"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="600px"
         android:id="@+id/imageView_stationBild"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:layout_below="@+id/textView_stationName"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>
