@@ -42,7 +42,7 @@ public class Fragment2 extends Fragment {
                 momentaneStation = stationen.get(0);
 
                 ImageView image = (ImageView) rootView.findViewById(R.id.imageView_stationBild);
-                image.setImageResource(R.drawable.willkommen);
+                image.setImageResource(R.drawable.weisseriesen);
                 break;
             case "Johannstrasse":
                 momentaneStation = stationen.get(1);
