@@ -22,7 +22,6 @@ public class Fragment3 extends Fragment {
         Button play, pause, stop;
 
         play = (Button) rootView.findViewById(R.id.play);
-        pause = (Button) rootView.findViewById(R.id.pause);
         stop = (Button) rootView.findViewById(R.id.stop);
 
         final MediaPlayer sound = MediaPlayer.create(getActivity(), R.raw.hund);
@@ -34,11 +33,10 @@ public class Fragment3 extends Fragment {
             }
         });
 
-        pause.setOnClickListener(new View.OnClickListener() {
+        stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 sound.pause();
-                int length = sound.getCurrentPosition();
             }
         });
 
