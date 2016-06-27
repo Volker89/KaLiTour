@@ -26,6 +26,7 @@
         <activity android:name=".MapActivity" />
         <activity android:name=".InfoActivity" />
         <activity android:name=".InstructActivity" />
+        <activity android:name=".CreditsActivity"></activity>
     </application>
 
 </manifest>

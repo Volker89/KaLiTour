@@ -107,12 +107,10 @@ public class InfoActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
             case R.id.item1:
-                Intent i = new Intent(InfoActivity.this, InstructActivity.class);
-                startActivity(i);
+                Intent ia = new Intent(InfoActivity.this, InstructActivity.class);
+                startActivity(ia);
                 return true;
             case R.id.item2:
-                return true;
-            case R.id.item3:
                 return true;
             case R.id.item2_1:
                 Intent i1 = new Intent(InfoActivity.this, InfoActivity.class);
@@ -164,6 +162,9 @@ public class InfoActivity extends AppCompatActivity {
                 i10.putExtra("FROM_ACTIVITY","Maxstrasse");
                 startActivity(i10);
                 return true;
+            case R.id.item3:
+                Intent ib = new Intent(InfoActivity.this, CreditsActivity.class);
+                startActivity(ib);
             default:
                 return super.onOptionsItemSelected(item);
         }
