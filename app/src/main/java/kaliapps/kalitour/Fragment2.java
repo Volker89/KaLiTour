@@ -45,6 +45,9 @@ public class Fragment2 extends Fragment {
 
                 ImageView image0 = (ImageView) rootView.findViewById(R.id.imageView_stationBild);
                 image0.setImageResource(R.drawable.weisseriesen);
+
+                ImageView image2 = (ImageView) rootView.findViewById(R.id.imageView_stationBild2);
+                image2.setImageResource(R.drawable.weisseriesen);
                 break;
             case "Johannstrasse":
                 momentaneStation = stationen.get(1);
