@@ -12,9 +12,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Anleitung"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Schritt 1"
+        android:text="Kartenansicht:"
         android:id="@+id/textView"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/textView8"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -23,7 +35,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
+        android:text="Hier wird ihnen die Route der Altsiedlung der stadt Kamp-Lintfort angezeigt.
+Sie können bei jeder Station das Symbol anklicken. Dadurch bekommen sie zusätzliche Informationen zu der ausgewählten Station."
         android:id="@+id/textView2"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
@@ -34,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Schritt 2"
+        android:text="Stationsdetails:"
         android:id="@+id/textView3"
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
@@ -45,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
+        android:text="Sie können durch klicken oder wischen zwischen Text, Bild und Audioinformationen navigieren. Mit dem Karte-Button gelangen Sie zurück zur Kartenansicht."
         android:id="@+id/textView4"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView3"
@@ -56,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Schritt 3"
+        android:text="Menü:"
         android:id="@+id/textView5"
         android:layout_below="@+id/textView4"
         android:layout_alignParentLeft="true"
@@ -67,10 +80,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
+        android:text="Das Menü ist duch antippen aufklappbar und durch klicken außerhalb des Menübereichs zuklappbar.
+Über das Menü können Sie jederzeit die Bediungsanleitung der App aufrufen.
+Die Liste aller Stationen die auf der Tour zu sehen sind sowie die Credits sind ebenfalls aufzurufen."
         android:id="@+id/textView6"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karte"
+        android:id="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView6"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
