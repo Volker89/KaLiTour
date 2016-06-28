@@ -79,7 +79,13 @@ public class InfoActivity extends AppCompatActivity {
 
                     return Fragment2;
                 case 2:
-                    return new Fragment3();
+                    Fragment Fragment3 = new Fragment3();
+
+                    Bundle args3 = new Bundle();
+                    args3.putString("FRAGMENT_KEY",prevActivity);
+                    Fragment3.setArguments(args3);
+
+                    return Fragment3;
                 default:
                     return null;
             }
