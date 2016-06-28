@@ -115,6 +115,7 @@ public class InfoActivity extends AppCompatActivity {
             case R.id.item1:
                 Intent ia = new Intent(InfoActivity.this, InstructActivity.class);
                 startActivity(ia);
+                finish();
                 return true;
             case R.id.item2:
                 return true;
@@ -122,55 +123,66 @@ public class InfoActivity extends AppCompatActivity {
                 Intent i1 = new Intent(InfoActivity.this, InfoActivity.class);
                 i1.putExtra("FROM_ACTIVITY","Altes Rathaus");
                 startActivity(i1);
+                finish();
                 return true;
             case R.id.item2_2:
                 Intent i2 = new Intent(InfoActivity.this, InfoActivity.class);
                 i2.putExtra("FROM_ACTIVITY","Johannstrasse");
                 startActivity(i2);
+                finish();
                 return true;
             case R.id.item2_3:
                 Intent i3 = new Intent(InfoActivity.this, InfoActivity.class);
                 i3.putExtra("FROM_ACTIVITY","Alfredstrasse");
                 startActivity(i3);
+                finish();
                 return true;
             case R.id.item2_4:
                 Intent i4 = new Intent(InfoActivity.this, InfoActivity.class);
                 i4.putExtra("FROM_ACTIVITY","Georgstrasse");
                 startActivity(i4);
+                finish();
                 return true;
             case R.id.item2_5:
                 Intent i5 = new Intent(InfoActivity.this, InfoActivity.class);
                 i5.putExtra("FROM_ACTIVITY","Markt");
                 startActivity(i5);
+                finish();
                 return true;
             case R.id.item2_6:
                 Intent i6 = new Intent(InfoActivity.this, InfoActivity.class);
                 i6.putExtra("FROM_ACTIVITY","Antonstrasse");
                 startActivity(i6);
+                finish();
                 return true;
             case R.id.item2_7:
                 Intent i7 = new Intent(InfoActivity.this, InfoActivity.class);
                 i7.putExtra("FROM_ACTIVITY","Lotharstrasse");
                 startActivity(i7);
+                finish();
                 return true;
             case R.id.item2_8:
                 Intent i8 = new Intent(InfoActivity.this, InfoActivity.class);
                 i8.putExtra("FROM_ACTIVITY","Barbarastrasse");
                 startActivity(i8);
+                finish();
                 return true;
             case R.id.item2_9:
                 Intent i9 = new Intent(InfoActivity.this, InfoActivity.class);
                 i9.putExtra("FROM_ACTIVITY","Vinnstrasse");
                 startActivity(i9);
+                finish();
                 return true;
             case R.id.item2_10:
                 Intent i10 = new Intent(InfoActivity.this, InfoActivity.class);
                 i10.putExtra("FROM_ACTIVITY","Maxstrasse");
                 startActivity(i10);
+                finish();
                 return true;
             case R.id.item3:
                 Intent ib = new Intent(InfoActivity.this, CreditsActivity.class);
                 startActivity(ib);
+                finish();
             default:
                 return super.onOptionsItemSelected(item);
         }

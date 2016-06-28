@@ -259,6 +259,7 @@ public class Fragment3 extends Fragment {
             public void onClick(View v) {
                 Intent i = new Intent(getActivity(), MapActivity.class);
                 startActivity(i);
+                getActivity().finish();
             }
         });
 

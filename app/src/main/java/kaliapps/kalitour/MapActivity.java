@@ -121,6 +121,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Altes Rathaus");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
@@ -128,6 +129,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Johannstrasse");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
@@ -135,6 +137,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Alfredstrasse");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
@@ -142,6 +145,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Georgstrasse");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
@@ -149,6 +153,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Markt");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
@@ -156,6 +161,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Antonstrasse");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
@@ -163,6 +169,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Lotharstrasse");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
@@ -170,6 +177,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Barbarastrasse");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
@@ -177,6 +185,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Vinnstrasse");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
@@ -184,6 +193,7 @@ public class MapActivity extends AppCompatActivity {
                             Intent i = new Intent(MapActivity.this, InfoActivity.class);
                             i.putExtra("FROM_ACTIVITY","Maxstrasse");
                             startActivity(i);
+                            finish();
                             return true;
                         }
 
