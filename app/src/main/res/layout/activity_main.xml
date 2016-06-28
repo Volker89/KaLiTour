@@ -3,40 +3,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/kali_bg"
+    android:background="#234A5A"
     tools:context="kaliapps.kalitour.MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="116dp" />
+        android:id="@+id/imageView"
+        android:src="@drawable/bg_titel"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Credits"
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        android:text=""
+        android:id="@+id/button"
+        android:background="@drawable/icons_start"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        android:text=""
         android:id="@+id/button4"
-        android:layout_marginBottom="77dp"
-        android:layout_alignParentBottom="true"
+        android:background="@drawable/icons_hilfe"
+        android:layout_below="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        android:text=""
+        android:id="@+id/button8"
+        android:background="@drawable/icons_einstellungen"
+        android:layout_below="@+id/button4"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hilfe"
-        android:id="@+id/button8"
-        android:layout_above="@+id/button4"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button"
-        android:layout_marginBottom="79dp" />
 
 </RelativeLayout>
