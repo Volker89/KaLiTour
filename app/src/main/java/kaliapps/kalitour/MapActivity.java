@@ -254,7 +254,7 @@ public class MapActivity extends AppCompatActivity {
 
         map.addPolyline(new PolylineOptions()
                 .add(points)
-                .color(Color.parseColor("#009688"))
+                .color(Color.parseColor("#148EAD"))
                 .width(5));
     }
 
