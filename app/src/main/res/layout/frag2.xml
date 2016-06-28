@@ -25,19 +25,7 @@
             android:layout_below="@+id/textView_stationNameBild"
             android:layout_centerHorizontal="true" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Medium Text"
-            android:id="@+id/textView_bildTitel"
-            android:textColor="@color/text_color"
-            android:layout_marginTop="15dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_below="@+id/imageView_stationBild"
-            android:layout_centerHorizontal="true" />
-
-        <Button
+    <Button
             android:layout_width="95dp"
             android:layout_height="45dp"
             android:text="Karte"

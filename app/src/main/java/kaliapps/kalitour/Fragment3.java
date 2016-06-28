@@ -26,12 +26,12 @@ public class Fragment3 extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.frag3, container,false);
 
+        final MediaPlayer sound = MediaPlayer.create(getActivity(), R.raw.hund);
+
         Button play, pause, stop;
 
         play = (Button) rootView.findViewById(R.id.play);
         stop = (Button) rootView.findViewById(R.id.stop);
-
-        final MediaPlayer sound = MediaPlayer.create(getActivity(), R.raw.hund);
 
         play.setOnClickListener(new View.OnClickListener() {
             @Override
