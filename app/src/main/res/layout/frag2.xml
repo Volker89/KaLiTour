@@ -15,6 +15,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Large Text"
             android:id="@+id/textView_stationNameBild"
+            android:textColor="@color/text_color"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="0dp"
             android:layout_gravity="center_horizontal" />
@@ -35,24 +36,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Medium Text"
             android:id="@+id/textView_bildTitel"
-            android:layout_gravity="center_horizontal" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="600px"
-            android:id="@+id/imageView_stationBild2"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_below="@+id/textView_stationName"
-            android:layout_gravity="center_horizontal" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Medium Text"
-            android:id="@+id/textView_bildTitel2"
+            android:textColor="@color/text_color"
             android:layout_gravity="center_horizontal" />
 
         <Button

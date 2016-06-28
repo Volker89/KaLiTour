@@ -69,9 +69,6 @@ public class Fragment2 extends Fragment {
 
                 ImageView image51 = (ImageView) rootView.findViewById(R.id.imageView_stationBild);
                 image51.setImageResource(R.drawable.bild_station5);
-
-                ImageView image52 = (ImageView) rootView.findViewById(R.id.imageView_stationBild2);
-                image52.setImageResource(R.drawable.bild_station5_2);
                 break;
             case "Antonstrasse":
                 momentaneStation = stationen.get(5);
@@ -93,9 +90,6 @@ public class Fragment2 extends Fragment {
 
                 ImageView image81 = (ImageView) rootView.findViewById(R.id.imageView_stationBild);
                 image81.setImageResource(R.drawable.bild_station9);
-
-                ImageView image82 = (ImageView) rootView.findViewById(R.id.imageView_stationBild2);
-                image82.setImageResource(R.drawable.bild_station9_2);
                 break;
             case "Maxstrasse":
                 momentaneStation = stationen.get(9);
